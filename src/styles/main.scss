@@ -1,7 +1,22 @@
 @import "utils";
 @import "fonts";
 @import "typography";
+@import "nav";
+@import "header";
+@import "global";
+@import "btn";
+@import "section";
+@import "story";
+@import "videoBlock";
+@import "expertise";
+@import "team";
+@import "portfolio";
+@import "testimonial";
+@import "contact";
+@import "footer";
+@import "burger";
 
 body {
   background: $c-gray;
+  margin: 0;
 }

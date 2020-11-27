@@ -1,0 +1,35 @@
+.section {
+  padding: 100px 0;
+
+  &__header {
+    max-width: 460px;
+    margin: 0 auto;
+    text-align: center;
+
+    &::after {
+      margin: 18px auto 0;
+      display: block;
+      content: "";
+      width: 50px;
+      height: 2px;
+      background-color: rgba(#413d4b, 0.3);
+    }
+  }
+
+  &__title {
+    color: #413d4b;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    margin-bottom: 16px;
+  }
+
+  &__subtitle {
+    color: rgba(#2f2d35, 0.75);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1.05px;
+  }
+}

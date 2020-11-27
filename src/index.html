@@ -3,11 +3,400 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Tajam</title>
     <link rel="stylesheet" href="./styles/main.scss">
+    <script defer type="text/javascript" src="scripts/main.js"></script>
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
-    <script type="text/javascript" src="scripts/main.js"></script>
+    <header class="header" id="home">
+      <div class="container">
+        <div class="header__inner">
+          <a href="#" class="header__logo"><img src="./images/logo.png" alt="Logo"></a>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li>
+                <a href="#" class="header__nav-link header__nav-link_active">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#About" class="header__nav-link">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#expertise" class="header__nav-link">
+                  Expertise
+                </a>
+              </li>
+              <li>
+                <a href="#team" class="header__nav-link">
+                  Teams
+                </a>
+              </li>
+              <li>
+                <a href="#portfolio" class="header__nav-link">
+                  Works
+                </a>
+              </li>
+              <li>
+                <a href="#PeopleSay" class="header__nav-link">
+                  People say
+                </a>
+              </li>
+              <li><a href="#contact" class="header__nav-link">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="burger-menu">
+            <a href="" class="burger-menu_button">
+              <spun class="burger-menu_lines"></spun>
+            </a>
+            <nav class="burger-menu_nav">
+              <a href="#home" class="burger-menu_link">home</a>
+              <a href="#About" class="burger-menu_link">About</a>
+              <a href="#expertise" class="burger-menu_link">Expertise</a>
+              <a href="#team" class="burger-menu_link">Teams</a>
+              <a href="#portfolio" class="burger-menu_link">Works</a>
+              <a href="#PeopleSay" class="burger-menu_link">People say</a>
+              <a href="#contact" class="burger-menu_link">Contact</a>
+            </nav>
+            <div class="burger-menu_overlay"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="section-main section">
+      <div class="container">
+        <div class="section-main__content">
+          <h1 class="section-main__title">We Are Awesome Creative Agency</h1>
+          <p class="section-main__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+            auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+            sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi
+            accumsan ipsum velit.
+          </p>
+          <a href="#" class="button">Learn more</a>
+        </div>
+      </div>
+    </main>
+    <section class="section-story section" id="About">
+      <div class="container">
+        <div class="section-story__inner section__inner">
+          <img
+            src="../src/images/ourStory.png"
+            alt="image"
+            class="section-story__image"
+          >
+          <div class="section-story__content">
+            <h2 class="section-story__title section__title">Our story</h2>
+            <p class="section-story__text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+              velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
+              ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus<br><br>
+              Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris
+              vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per
+              conubia nostra, per inceptos himenaeos.
+            </p>
+            <a href="#" class="button">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-video section">
+      <div class="section-video__inner section__inner">
+        <a href="#" class="section-video__play-btn">
+          <img src="./images/play.png" alt="Play video">
+        </a>
+        <span class="section-video__text">Watch our story</span>
+      </div>
+    </section>
+    <section class="expertise" id="expertise">
+      <div class="expertise__container">
+        <h2 class="expertise__title">EXPERTISE</h2>
+        <h3 class="expertise__subtitle">Lorem ipsum dolor sit amet proin gravida nibh vel velit</h3>
+        <div class="expertise__content">
+          <div class="expertise-item">
+            <img class="expertise-item__image" src="images/expertise/1.png" alt="monitor icon"/>
+            <h3 class="expertise-item__title">WEB DESIGN & DEVELOPMENT</h3>
+            <p class="expertise-item__description">
+              This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+              auctor aliquet Aenean.
+            </p>
+          </div>
+          <div class="expertise-item">
+            <img class="expertise-item__image" src="images/expertise/2.png" alt="brush icon"/>
+            <h3 class="expertise-item__title">BRANDING IDENTITY</h3>
+            <p class="expertise-item__description">
+              This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+              auctor aliquet Aenean.
+            </p>
+          </div>
+          <div class="expertise-item">
+            <img class="expertise-item__image" src="images/expertise/3.png" alt="mobile icon"/>
+            <h3 class="expertise-item__title">MOBILE APP</h3>
+            <p class="expertise-item__description">
+              This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+              auctor aliquet Aenean.
+            </p>
+          </div>
+          <div class="expertise-item">
+            <img class="expertise-item__image" src="images/expertise/4.png" alt="diagram icon"/>
+            <h3 class="expertise-item__title">SEARCH ENGINE OPTIMIZATION</h3>
+            <p class="expertise-item__description">
+              This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+              auctor aliquet Aenean.
+            </p>
+          </div>
+          <div class="expertise-item">
+            <img class="expertise-item__image" src="images/expertise/5.png" alt="console icon"/>
+            <h3 class="expertise-item__title">GAME DEVELOPMENT</h3>
+            <p class="expertise-item__description">
+              This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+              auctor aliquet Aenean.
+            </p>
+          </div>
+          <div class="expertise-item">
+            <img class="expertise-item__image" src="images/expertise/6.png" alt="heart icon"/>
+            <h3 class="expertise-item__title">MADE WITH LOVE</h3>
+            <p class="expertise-item__description">
+              This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
+              auctor aliquet Aenean.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="team" id="team">
+      <div class="container">
+        <h2 class="team__title">MEET OUR AMAZING TEAM</h2>
+        <h3 class="team__subtitle">Lorem ipsum dolor sit amet proin gravida nibh vel velit</h3>
+        <div class="team__content">
+          <div class="team-member">
+            <img class="team-member-image" src="../src/images/team/white.png" alt="Photo CEO"/>
+            <div class="team-member__description">
+              <h3 class="team-member__name">SEMF UCUK</h3>
+              <p class="team-member__position">CEO & FOUNDER</p>
+            </div>
+          </div>
+          <div class="team-member">
+            <img class="team-member__image" src="../src/images/team/white.png" alt="Photo enginer"/>
+            <div class="team-member__description">
+              <h3 class="team-member__name">DIK ADALIN</h3>
+              <p class="team-member__position">ENGINEERING</p>
+            </div>
+          </div>
+          <div class="team-member">
+            <img class="team-member__image" src="../src/images/team/white.png" alt="Photo of the designer"/>
+            <div class="team-member__description">
+              <h3 class="team-member__name">JENG KOL</h3>
+              <p class="team-member__position">DESIGNER</p>
+            </div>
+          </div>
+          <div class="team-member">
+            <img class="team-member__image" src="../src/images/team/white.png" alt="Photo marketer"/>
+            <div class="team-member__description">
+              <h3 class="team-member__name">PET ROMAK</h3>
+              <p class="team-member__position">MARKETING</p>
+            </div>
+          </div>
+        </div>
+        <p class="team__ofer">Become part of our dream team, let’s join us !</p>
+        <a class="button team-btn" href="#">WE ARE HIRING</a>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-title__wrapper">
+        <h2 class="portfolio__title">OUR WORKS</h2>
+        <a class="portfolio__link" href="#">See All Project in dribbble ></a>
+      </div>
+      <div class="gallery">
+        <a class="gallery-item" href="#">
+          <img src="./images/blockgrey.png" alt="portfolio item"/>
+        </a>
+        <a class="gallery-item" href="#">
+          <img src="./images/blockgrey.png" alt="portfolio item"/>
+        </a>
+        <a class="gallery-item" href="#">
+          <img src="./images/blockgrey.png" alt="portfolio item"/>
+        </a>
+        <a class="gallery-item" href="#">
+          <img src="./images/blockgrey.png" alt="portfolio item"/>
+        </a>
+        <a class="gallery-item" href="#">
+          <img src="./images/blockgrey.png" alt="portfolio item"/>
+        </a>
+        <a class="gallery-item" href="#">
+          <img src="./images/blockgrey.png" alt="portfolio item"/>
+        </a>
+        <a class="gallery-item" href="#">
+          <img src="./images/blockgrey.png" alt="portfolio item"/>
+        </a>
+        <a class="gallery-item" href="#">
+          <img src="./images/blockgrey.png" alt="portfolio item"/>
+        </a>
+        <a class="gallery-item" href="#">
+          <img src="./images/blockgrey.png" alt="portfolio item"/>
+        </a>
+        <a class="gallery-item" href="#">
+          <img src="./images/blockgrey.png" alt="portfolio item"/>
+        </a>
+        <a class="gallery-item" href="#">
+          <img src="./images/blockgrey.png" alt="portfolio item"/>
+        </a>
+        <a class="gallery-item" href="#">
+          <img src="./images/blockgrey.png" alt="portfolio item"/>
+        </a>
+      </div>
+      <div class="btn-wrapper">
+        <a class="portfolio__button" href="#">LOAD MORE</a>
+      </div>
+    </section>
+    <section class="testimonials" id="PeopleSay">
+      <div class="testimonials__container">
+        <h2 class="testimonials__title">“</h2>
+        <p class="testimonials__text">
+          This is Photoshop's version of Lorem Ipsum.
+          Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+          lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+          sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+          Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
+          Sed non mauris vitae erat consequat auctor eu in elit.
+        </p>
+        <div class="testimonials__description">
+          <p class="testimonials__name">
+            JANE GALADRIEL
+          </p>
+          <p class="testimonials__position">
+            CEO TENGKUREP
+          </p>
+        </div>
+        <div class="testimonials__images">
+          <img class="testimonials__nav" src="images/back.png" alt="arrrow back">
+          <img class="testimonials__image" src="images/1.png" alt="pesron">
+          <img class="testimonials__image" src="images/2.png" alt="person">
+          <img class="testimonials__image  " src="images/3 - active.png" alt="person">
+          <img class="testimonials__image" src="images/4.png" alt="person">
+          <img class="testimonials__image" src="images/5.png" alt="person">
+          <img class="testimonials__nav" src="images/forward.png" alt="arrow forward">
+        </div>
+      </div>
+    </section>
+  <div class="contact" id="contact">
+    <div class="contact__container">
+      <div class="contact-form__wrapper">
+        <h2 class="contact-form__title">GIVE US A GOOD NEWS</h2>
+        <form class="contact-form" action="#">
+          <input
+            class="contact-form__input"
+            type="text" name="name"
+            placeholder="Name"
+          />
+          <input
+            class="contact-form__input"
+            type="email" name="email"
+            placeholder="Email"
+          />
+          <input
+            class="contact-form__input"
+            type="text" name="subject"
+            placeholder="Subject"/>
+          <textarea
+            class="contact-form__textarea"
+            name="message"
+            placeholder="Your message">
+                    </textarea>
+          <input
+            class="contact__button"
+            type="submit"
+            value="SUBMIT"/>
+        </form>
+      </div>
+      <div class="client__wrapper">
+        <h2 class="client__title">OUR HAPPY CLIENT</h2>
+        <div class="client__container">
+          <div class="client">
+            <img src="./images/contact/Zara_Logo.png" alt="Zara logo"/>
+          </div>
+          <div class="client">
+            <img src="./images/contact/Logo_of_Mango_(new).png" alt="Mango logo"/>
+          </div>
+          <div class="client">
+            <img src="./images/contact/1280px-Barneys_New_York_Logo.png" alt="Barneys New York logo"/>
+          </div>
+          <div class="client">
+            <img src="./images/contact/1280px-Gucci_Logo.png" alt="Gucci logo"/>
+          </div>
+          <div class="client">
+            <img src="./images/contact/Calvin_klein_logo.png" alt="Calvin Klein logo"/>
+          </div>
+          <div class="client">
+            <img src="./images/contact/1280px-Logo_NIKE.png" alt="Nike logo"/>
+          </div>
+          <div class="client">
+            <img src="./images/contact/Converse_logo.png" alt="Converse logo"/>
+          </div>
+          <div class="client">
+            <img src="./images/contact/Puma_Logo.png" alt="Puma logo"/>
+          </div>
+          <div class="client">
+            <img src="./images/contact/1280px-Levi's_logo.png" alt="Levi`s logo"/>
+          </div>
+          <div class="client">
+            <img src="./images/contact/Billabong.png" alt="Billabong logo"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer" id="footer">
+    <div class="footer__container">
+      <div class="footer__wrapper">
+        <div class="footer__left">
+          <a class="footer__logo" href="#">
+            <img src="images/logo.png" alt="Logo"/>
+          </a>
+          <div class="footer__description">
+            <p>
+              lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit.
+              Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit
+            </p>
+          </div>
+        </div>
+        <div class="footer__contacts">
+          <h3 class="footer__title">OUR STUDIO</h3>
+          <a class="footer__link footer__link--adress" href="#">
+            Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat
+            11480 - Indonesia
+          </a>
+          <a class="footer__link footer__link--phone" href="tel:+622122243333">
+            (+62) 21-2224 3333
+          </a>
+        </div>
+        <div class="footer__right">
+          <h3 class="footer__title">STAY IN TOUCH</h3>
+          <form class="form-news">
+            <input class="form-news__input" type="email" placeholder="Subscribe our newsletter"/>
+            <button class="form-news__button"></button>
+          </form>
+          <div class="footer-soc">
+            <a class="footer-soc__link footer-soc__link--faceboock" href="#"></a>
+            <a class="footer-soc__link footer-soc__link--twitter" href="#"></a>
+            <a class="footer-soc__link footer-soc__link--dribble" href="#"></a>
+            <a class="footer-soc__link footer-soc__link--instagram" href="#"></a>
+            <a class="footer-soc__link footer-soc__link--google-plus" href="#"></a>
+            <a class="footer-soc__link footer-soc__link--youtube" href="#"></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright__wrapper">
+        <div class="footer-info">
+          <a class="footer-info__item" href="#">HELP</a>
+          <a class="footer-info__item" href="#">TERMS & CONDITION</a>
+          <a class="footer-info__item" href="#">PRIVACY</a>
+        </div>
+        <div class="footer-copyright">
+          <p>Copyright &copy; 2015 - Tajem Creative</p>
+        </div>
+      </div>
+    </div>
+  </footer>
   </body>
 </html>

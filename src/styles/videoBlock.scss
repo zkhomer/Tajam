@@ -1,0 +1,30 @@
+.section-video {
+
+  background: linear-gradient(to right,
+  rgba(#09052f, 0.85) 0%,
+  rgba(#311d5e, 0.85) 100%),
+    url("../images/video-bg.jpg") no-repeat center center;
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  min-height: 550px;
+
+  &__inner {
+    text-align: center;
+  }
+
+  &__play-btn {
+    margin-bottom: 34px;
+    display: block;
+  }
+
+  &__text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+}

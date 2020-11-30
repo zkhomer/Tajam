@@ -1,2 +1,2 @@
 # Tajam
-    - [DEMO LINK](hhttps://zkhomer.github.io/Tajam)
+    - [DEMO LINK](https://zkhomer.github.io/Tajam)
